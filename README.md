@@ -2,7 +2,10 @@
 
 A two-player chess game written in Java with a Swing GUI. Pieces are moved by dragging them with the mouse, and every legal move is highlighted.
 
-<!-- Add a screenshot here: ![Screenshot](docs/screenshot.png) -->
+<p align="center">
+  <img src="img_1.png" width="340" alt="Starting position">
+  <img src="img_2.png" width="340" alt="Legal moves highlighted">
+</p>
 
 ## Features
 
@@ -12,6 +15,7 @@ A two-player chess game written in Java with a Swing GUI. Pieces are moved by dr
 - Game end detection: checkmate, stalemate and insufficient material
 - Green highlights show all legal moves of the selected piece
 - When the game ends, the final position stays on the screen together with the result message
+- Custom piece set: a crescent on the king and a star on the bishop
 
 ## How to play
 
@@ -43,6 +47,9 @@ src
 │   └── Bishop.java  Knight.java  Pawn.java
 └── res
     └── Pieces.png         Sprite sheet with all piece images
+docs
+├── screenshot.png             Screenshots used in this README
+└── screenshot-highlight.png
 ```
 
 ## Not implemented yet
@@ -52,9 +59,13 @@ src
 - Move history and undo
 - Computer opponent
 
+## Credits
+
+Piece images: Cburnett (Wikimedia Commons), modified: crescent on the king and star on the bishop.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
-#### Build with ❤️ by Mohammed Elmaghraby.
+#### Built with ❤️ by Mohammed Elmaghraby.
