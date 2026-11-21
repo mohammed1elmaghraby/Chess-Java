@@ -3,9 +3,10 @@
 A two-player chess game written in Java with a Swing GUI. Pieces are moved by dragging them with the mouse, and every legal move is highlighted.
 
 <p align="center">
-  <img src="img_1.png" width="340" alt="Starting position">
-  <img src="img_2.png" width="340" alt="Legal moves highlighted">
+  <img src="docs/screenshot.png" width="340" alt="Starting position">
+  <img src="docs/screenshot-highlight.png" width="340" alt="Legal moves highlighted">
 </p>
+
 
 ## Features
 
