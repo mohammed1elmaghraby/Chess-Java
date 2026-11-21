@@ -25,7 +25,7 @@ A two-player chess game written in Java with a Swing GUI. Pieces are moved by dr
 - JDK 25 or newer (the entry point uses an instance `main` method without a class declaration).
   JDK 21 to 24 also work if preview features are enabled.
 - An IDE such as IntelliJ IDEA is recommended: open the project and run `src/Main/Main.java`.
-- `src/res/Pieces.png` must be on the classpath. In IntelliJ, mark `src/res` as a *Resources Root*.
+- `Pieces.png` must be on the classpath. In IntelliJ, mark `src/res` as a *Resources Root*.
 
 ## Project structure
 
